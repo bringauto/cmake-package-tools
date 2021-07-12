@@ -1,0 +1,10 @@
+##
+#
+# Tools needed for Bring Auto package management
+#
+
+INCLUDE_GUARD(DIRECTORY)
+
+INCLUDE(${CMAKE_CURRENT_LIST_DIR}/tools/CMAKE_PACKAGE_TOOLS_PLATFORM.cmake)
+
+SET(CMAKE_PACKAGE_TOOLS_FOUND TRUE)
